@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page Personnelle</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-top: 10px;
+        }
+
+        header h1 {
+            margin-top: 10px;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            text-align: center;
+            margin: 40px 0;
+            font-size: 2em;
+            color: #333;
+        }
+
+        .skills, .portfolio {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .skill, .project {
+            flex: 1 1 300px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f8f8f8;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .skill i, .project i {
+            font-size: 3em;
+            color: #333;
+        }
+
+        .skill h3, .project h3 {
+            margin: 15px 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .skill p, .project p {
+            font-size: 1em;
+            color: #777;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact h3 {
+            margin-bottom: 20px;
+        }
+
+        .contact a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://via.placeholder.com/150" alt="Photo de profil">
+        <h1>Nom de l'utilisateur</h1>
+        <p>Développeur Web | Designer | Créateur de contenu</p>
+    </header>
+
+    <div class="container">
+
+        <section class="about">
+            <h2 class="section-title">À propos de moi</h2>
+            <p>Je suis un développeur passionné par la création de solutions numériques innovantes. Avec plusieurs années d'expérience dans le développement web, je me spécialise dans la conception de sites web élégants et fonctionnels. Mon objectif est de fournir des expériences utilisateur exceptionnelles à travers des designs simples et efficaces.</p>
+        </section>
+
+        <section class="skills">
+            <h2 class="section-title">Compétences</h2>
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+                <p>Création de structures web modernes et sémantiques avec HTML5.</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+                <p>Stylisation avancée des pages web avec CSS3, animations et responsive design.</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js-square"></i>
+                <h3>JavaScript</h3>
+                <p>Développement d'interactions dynamiques et de fonctionnalités riches avec JavaScript.</p>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="project">
+                <i class="fas fa-globe"></i>
+                <h3>Projet 1</h3>
+                <p>Un site web innovant qui intègre des fonctionnalités avancées.</p>
+            </div>
+            <div class="project">
+                <i class="fas fa-code"></i>
+                <h3>Projet 2</h3>
+                <p>Une application web dynamique développée avec les dernières technologies.</p>
+            </div>
+            <div class="project">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Projet 3</h3>
+                <p>Une application mobile responsive, optimisée pour tous les appareils.</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2 class="section-title">Contactez-moi</h2>
+            <h3>Vous pouvez me joindre par email ou via les réseaux sociaux</h3>
+            <a href="mailto:email@example.com">Email</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+        </section>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
